@@ -70,6 +70,7 @@
           android:layout_height="match_parent"
           android:layout_weight="1"
           android:layout_margin="8dp"
+          android:scaleType="fitStart"
           android:src="@drawable/exo_icon_rewind"
           style="@style/Widget.Android.AppWidget.InnerView"/>
 
@@ -87,6 +88,7 @@
           android:layout_height="match_parent"
           android:layout_weight="1"
           android:layout_margin="8dp"
+          android:scaleType="fitEnd"
           android:src="@drawable/exo_icon_fastforward" />
       </LinearLayout>
 
